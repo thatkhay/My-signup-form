@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+}
+
+body{
+    height: 130vh;
+    padding: 9rem;
+    background: url(./images-&-icons/bg-intro-desktop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: hsl(0, 100%, 74%) ;
+}
+
+.mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30rem;
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.topRightDiv{
+    height: 3rem;
+    width: 30rem;
+    background-color: hsl(248, 32%, 49%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+input{
+    margin-bottom: 1rem;
+    height: 3.4rem;
+    width: 25rem;
+    padding-left: 2rem;
+    border-radius: 10px;
+    border: 1px solid hsl(246, 25%, 77%);
+    margin-top: 1rem;
+}
+
+.button{
+    height: 3rem;
+    width: 25rem;  
+    padding-left: 2rem;
+    border-radius: 10px;
+    background-color: hsl(154, 59%, 51%);
+    border: 1px solid  hsl(155, 46%, 39%);
+    border-bottom: 3px solid  hsl(155, 46%, 39%);
+    margin-top: 1rem;
+}
+
+.formP{
+    font-size: .7rem;
+    margin-top: 1rem;
+}
+
+.anchor{
+    color: red;
+}
+
+.h1{
+margin-bottom: 2rem;
+ color: white;
+ font-size: 3rem;
+ width: 75%;
+}
+ 
+.p{
+    width: 75%;
+    color: white;
+}
+
+.iconError{
+    position: relative;
+    margin-left: 22rem;
+    top: -3.5rem;
+display: none;
+}
+
+.p{
+    text-align: right;
+    color: hsl(0, 100%, 74%) ;
+    margin-top: -0.5rem;
+ display: flex;
+ align-items: last baseline;
+}
+
+.hidden{
+    display: none;
+}
+
+secP{
+    display: none;
+}
