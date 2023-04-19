@@ -28,21 +28,21 @@
   <div class="topRightDiv">Try it free 7 days then $20/mo. thereafter</div>
   
 <form action="#" class="form">
-   <div class="firstNameDiv"><input class="firstName" placeholder="First Name "  type="text"  > 
-  <img src="./images-&-icons/icon-error.svg" alt="" class="iconError">
-<p id="firstErrorMessage" class="hidden p">First name cannot be empty</p>
+   <div class="firstNameDiv"><input class="firstName" placeholder="First Name "  type="text"  required> 
+  <img src="./images-&-icons/icon-error.svg" alt="" class="iconError nameIcon" id="nameIconError">
+<p id="firstErrorMessage" class="hidden p2">First name cannot be empty</p>
   </div>
-   <div class="secNameDiv"><input  class="secName" placeholder="Last Name" type="text" > 
-  <img src="./images-&-icons/icon-error.svg" alt="" class="iconError">
-  <p id="secErrorMessage" class="hidden p">Last name cannot be empty</p>
+   <div class="secNameDiv"><input  class="secName" placeholder="Last Name" type="text" required> 
+  <img src="./images-&-icons/icon-error.svg" alt="" class="iconError nameIcon" id="secNameIconError">
+  <p id="secErrorMessage" class="hidden p2">Last name cannot be empty</p>
   </div>
-  <div class="emailDiv"> <input  class="email" placeholder="Email Address" type="email" > 
-  <img src="./images-&-icons/icon-error.svg" alt="" class="iconError">
-  <p id="emailErrorMessage" class="hidden p">Looks like this is not an email</p>
+  <div class="emailDiv"> <input  class="email" placeholder="Email Address" type="email" required> 
+  <img src="./images-&-icons/icon-error.svg" alt="" class="iconError nameIcon" id="emailIconError">
+  <p id="emailErrorMessage" class="hidden p2">Looks like this is not an email</p>
   </div>
-<div class="passwordDiv">  <input  class="pass" placeholder="Password" type="password" > 
-<img src="./images-&-icons/icon-error.svg" alt="" class="iconError">
-<p id="passErrorMessage" class="hidden p">Passsword cannot be empty</p>
+<div class="passwordDiv">  <input  class="pass" placeholder="Password" type="password" required minlength="6" maxlength="10"> 
+<img src="./images-&-icons/icon-error.svg" alt="" class="iconError nameIcon" id="passwordIconError">
+<p id="passErrorMessage" class="hidden p2">Passsword cannot be empty</p>
 </div>
   
  
